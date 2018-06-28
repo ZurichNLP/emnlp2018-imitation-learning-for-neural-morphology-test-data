@@ -1,4 +1,7 @@
-# Repository of test data from COLING 2018 paper by Makarov and Clematide
+# Repository of test data from COLING 2018 paper "Neural Transition-based String Transduction for Limited-Resource Setting in Morphology" by Peter Makarov and Simon Clematide
+The code to reproduce these results can be found at <https://github.com/ZurichNLP/coling2018-neural-transition-based-morphology>.
+The exact definition of which results from which result directory actually went into which table of our paper (and the corresponding test data in <https://github.com/ZurichNLP/coling2018-neural-transition-based-morphology-test-data>) can be found 
+in the makefiles in <https://github.com/ZurichNLP/coling2018-neural-transition-based-morphology/coling2018-datasets> and in <https://github.com/ZurichNLP/coling2018-neural-transition-based-morphology-test-data>.  
 
 All files in this repository are results from using a beam width of 4.
 
@@ -180,3 +183,4 @@ The gold standard data:
 | CA          | crp         |  96.8  | `data/lemmatizationwic2002/CA-CRP-AVG` |
 
 
+Feel free to ask <simon.clematide@uzh.ch> for questions related to the data or <makarov@cl.uzh.ch> for questions regarding the code.
