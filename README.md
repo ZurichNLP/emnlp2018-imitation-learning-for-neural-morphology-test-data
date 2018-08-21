@@ -39,6 +39,8 @@ The data files contain all tasks according to the table headers for the tasks. T
 | HA*-MRT | 84.8 | 94.0 | 88.1 | 85.2 | 88.0 | `data/celexbytask/HASTAR-CRP` |
 | CA-MRT  | 85.6 | 94.6 | 88.0 | 85.3 | 88.4 | `data/celexbytask/CA-MRT-CRP` |
 
+Datasets with explicit linguistic features for rP reinflection task can be found in <https://gitlab.cl.uzh.ch/morphology-datasets/sigmorphon-2017-format/celex-by-task>.
+
 ## Table 1: Part CELEX-ALL 
 There are 5 folds where we built 5 models for each fold. From the 5 models an ensemble system is built. The reported numbers are the averages of the ensembles (!).
 
