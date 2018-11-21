@@ -14,6 +14,7 @@ SIGMORPHON2017MEDIUM_DIR:= data/sigmorphon2017/medium
 
 
 # set target-specific variables
+# for COLING 2018 paper
 
 canonical-sgm2017-low-ca-lcs-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-LCS-E
 canonical-sgm2017-low-ca-lcs-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-LCS-AVG
@@ -39,6 +40,22 @@ canonical-sgm2017-low-ha-mrt-lcs-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/H
 canonical-sgm2017-low-ha-mrt-crp-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/HASTAR-MRT-CRP-E
 canonical-sgm2017-low-ha-mrt-crp-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/HASTAR-MRT-CRP-AVG
 
+# for EMNLP 2018 paper
+canonical-sgm2017-low-ca-mrt-a-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-MRT-A-E
+canonical-sgm2017-low-ca-mrt-a-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-MRT-A-AVG
+
+canonical-sgm2017-low-ca-d-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-D-E
+canonical-sgm2017-low-ca-d-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-D-AVG
+
+canonical-sgm2017-low-ca-r-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-R-E
+canonical-sgm2017-low-ca-r-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-R-AVG
+
+canonical-sgm2017-low-ca-rm-e:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-RM-E
+canonical-sgm2017-low-ca-rm-avg:   CANONICALDIR:=$(SIGMORPHON2017LOW_DIR)/CA-RM-AVG
+
+
+
+
 # all targets for sigmorphon 2017 low
 canonical-sgm2017-low-targets: \
   canonical-sgm2017-low-ca-lcs-e \
@@ -56,7 +73,16 @@ canonical-sgm2017-low-targets: \
   canonical-sgm2017-low-ha-mrt-lcs-e \
   canonical-sgm2017-low-ha-mrt-lcs-avg \
   canonical-sgm2017-low-ha-mrt-crp-e \
-  canonical-sgm2017-low-ha-mrt-crp-avg
+  canonical-sgm2017-low-ha-mrt-crp-avg \
+  canonical-sgm2017-low-ca-mrt-a-e \
+  canonical-sgm2017-low-ca-mrt-a-avg \
+  canonical-sgm2017-low-ca-d-e \
+  canonical-sgm2017-low-ca-d-avg \
+  canonical-sgm2017-low-ca-r-e \
+  canonical-sgm2017-low-ca-r-avg \
+  canonical-sgm2017-low-ca-rm-e \
+  canonical-sgm2017-low-ca-rm-avg \
+#  
 	
 
 
