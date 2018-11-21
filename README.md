@@ -1,7 +1,8 @@
 # Repository of test data from EMNLP 2018 paper ["Imitation Learning for Neural Morphological String Transduction"](https://arxiv.org/abs/1808.10701) by Peter Makarov and Simon Clematide
 The code to reproduce these results can be found at <https://github.com/ZurichNLP/emnlp2018-imitation-learning-for-neural-morphology>.
 For your convenience, the repository contains as well all test data from our COLING 2018 paper. See <README_COLING2018_PAPER.md> for the full description of all tables and data locations.
-Note, that the model identifiers in the EMNLP papers do not include `-E` decorations for ensembles, as all results are ensembles. The output of individual models are included in this repository using `-AVG` markers.
+Note that the model identifiers in the EMNLP papers do not include `-E` decorations for ensembles. 
+
 
 All results in this repository used a beam width of 4.
 
@@ -37,8 +38,11 @@ The data files contain all tasks according to the table headers for the tasks. T
 | NWFST   | 85.1 | 94.4 | 85.5 | 83.0 | 87.0 | n/a  |
 | HA*     | 84.6 | 93.9 | 88.1 | 85.1 | 87.9 | `data/celexbytask/HASTAR-CRP` |
 | CA      | 85.0 | 94.5 | 88.0 | 84.9 | 88.1 | `data/celexbytask/CA-CRP` |
-| HA*-MRT | 84.8 | 94.0 | 88.1 | 85.2 | 88.0 | `data/celexbytask/HASTAR-CRP` |
+| HA\*-MRT | 84.8 | 94.0 | 88.1 | 85.2 | 88.0 | `data/celexbytask/HASTAR-CRP` |
 | CA-MRT  | 85.6 | 94.6 | 88.0 | 85.3 | 88.4 | `data/celexbytask/CA-MRT-CRP` |
+| CA-D    | 85.7 | 94.4 |**88.4**| 85.1 | 88.4 | `data/celexbytask/CA-D` |
+| CA-R    | 85.6 | 94.4 |  88.3|**85.3**|**88.4**| `data/celexbytask/CA-R` |
+| CA-RM   | 84.9 | 94.1 |  88.3| 85.0| 88.1 | `data/celexbytask/CA-RM` |
 
 
 Further data relevant for EMNLP paper, which is not shown in tables
