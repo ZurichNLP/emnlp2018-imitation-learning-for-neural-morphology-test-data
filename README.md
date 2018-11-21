@@ -84,7 +84,26 @@ The table part of column L:
 | CA          | lcs         | 48.8 | `data/sigmorphon2017/low/CA-LCS-E` |
 | HA\*-MRT    | lcs         | 33.1 | `data/sigmorphon2017/low/HASTAR-MRT-LCS-E` |
 | CA-MRT      | lcs         | 49.9 | `data/sigmorphon2017/low/CA-MRT-LCS-E` |
+| CA-MRT-A    |             | 49.9 | `data/sigmorphon2017/low/CA-MRT-A-E` |
+| CA-D        |             | 50.3 | `data/sigmorphon2017/low/CA-D-E` |
+| CA-R        |             | 51.6 | `data/sigmorphon2017/low/CA-R-E` |
+| CA-RM       |             | 50.6 | `data/sigmorphon2017/low/CA-RM-E` |
 
+The table part of column M:
+
+## Table 2: Part SIGMORPHON 2017 Medium  Ensembles
+
+| Model       | Alignment   | medium | PATH |
+|-------------|-------------|--------|------|
+| SGM17TOP    |             | 82.8   |`data/sigmorphon2017/medium/HAECM-E15` |
+| HA\*        | lcs         | 80.2   | `data/sigmorphon2017/medium/HASTAR-LCS-E` |
+| CA          | lcs         | 81.0   | `data/sigmorphon2017/medium/CA-LCS-E`  |
+| HA\*-MRT    | lcs         | 81.5   | `data/sigmorphon2017/medium/HASTAR-MRT-LCS-E` | 
+| CA-MRT      | crp         | 82.9   | `data/sigmorphon2017/medium/CA-MRT-CRP-E` |
+| CA-MRT-A    |             | 82.7 | `data/sigmorphon2017/medium/CA-MRT-A-E` |
+| CA-D        |             | 82.6 | `data/sigmorphon2017/medium/CA-D-E` |
+| CA-R        |             | 83.8 | `data/sigmorphon2017/medium/CA-R-E` |
+| CA-RM       |             | **84.0** | `data/sigmorphon2017/medium/CA-RM-E` |
 
 
 The gold standard (same for low and medium):
@@ -93,80 +112,6 @@ The gold standard (same for low and medium):
 |----------|------------|------|------|
 | gold standard  |      |    | `data/sigmorphon2017/GOLD/`|
 
-
-
-## Table 2: Part SIGMORPHON 2017 Low  Averages
-
-
-| Model    | Alignment | low  | PATH |
-|----------|------------|------|------|
-| baseline |            | 37.9 | n/a  |
-| HA\*     | lcs        | 29.1 | `data/sigmorphon2017/low/HASTAR-LCS-AVG` |
-| CA       | lcs        | 47.3 | `data/sigmorphon2017/low/CA-LCS-AVG` |
-| HA*      | crp        | 23.9 | `data/sigmorphon2017/low/HASTAR-CRP-AVG` |
-| CA       | crp        | 42.5 | `data/sigmorphon2017/low/CA-CRP-AVG` |
-| HA\*-MRT | lcs        | 30.2 |  `data/sigmorphon2017/low/HASTAR-MRT-LCS-AVG` |
-| CA-MRT   | lcs      | **48.1** | `data/sigmorphon2017/low/CA-MRT-LCS-AVG` |
-| HA\*-MRT | crp        | 25.3 | `data/sigmorphon2017/low/HASTAR-MRT-CRP-AVG` |
-| CA-MRT   | crp        | 43.6 | `data/sigmorphon2017/low/CA-MRT-CRP-AVG` |
-
-## Table 2: Part SIGMORPHON 2017 Medium  Averages
-
-
-
-| Model    | Alignment  | medium | PATH |
-|----------|------------|--------|------|
-| baseline |            | 64.7   |  n/a |
-| HA\*     | lcs        | 78.5   | `data/sigmorphon2017/medium/HASTAR-LCS-AVG` |
-| CA       | lcs        | 79.5   | `data/sigmorphon2017/medium/CA-LCS-AVG` |
-| HA*      | crp        | 75.4   | `data/sigmorphon2017/medium/HASTAR-CRP-AVG` |
-| CA       | crp        | 78.9   | `data/sigmorphon2017/medium/CA-CRP-AVG` |
-| HA\*-MRT | lcs        | 79.6   | `data/sigmorphon2017/medium/HASTAR-MRT-LCS-AVG` |
-| CA-MRT   | lcs        | 80.3   | `data/sigmorphon2017/medium/CA-MRT-LCS-AVG`|
-| HA\*-MRT | crp        | 78.1   | `data/sigmorphon2017/medium/HASTAR-MRT-CRP-AVG` |
-| CA-MRT   | crp      | **81.1** | `data/sigmorphon2017/medium/CA-MRT-CRP-AVG` |
-
-
-## Table 2: Part SIGMORPHON 2017 Low  Ensembles
-
-| Model       | Alignment   | low  | PATH |
-|-------------|-------------|------|------|
-| baseline    |             | 37.9 | n/a  |
-| HA\*-E      | lcs         | 31.5 | `data/sigmorphon2017/low/HASTAR-LCS-E` |
-| CA-E        | lcs         | 48.8 | `data/sigmorphon2017/low/CA-LCS-E` |
-| HA\*-E      | crp         | 26.1 | `data/sigmorphon2017/low/HASTAR-CRP-E` |
-| CA-E        | crp         | 44.0 | `data/sigmorphon2017/low/CA-CRP-E` |
-| HA\*-MRT-E  | lcs         | 33.1 | `data/sigmorphon2017/low/HASTAR-MRT-LCS-E` |
-| CA-MRT-E    | lcs         | 49.9 | `data/sigmorphon2017/low/CA-MRT-LCS-E` |
-| HA\*-MRT-E  | crp         | 28.1 | `data/sigmorphon2017/low/HASTAR-MRT-CRP-E` |
-| CA-MRT-E    | crp         | 45.7 | `data/sigmorphon2017/low/CA-MRT-CRP-E` |
-| HACM-E7     |             | 46.8 | n/a |
-| HAEM-E7     |             | 48.5 | n/a |
-| HA[EC]M-E15 |             | **50.6** | `data/sigmorphon2017/low/HAECM-E15` |
-
-
-
-
-## Table 2: Part SIGMORPHON 2017 Medium  Ensembles
-
-| Model       | Alignment   | medium | PATH |
-|-------------|-------------|--------|------|
-| baseline    |             | 64.7   |  n/a |
-| HA\*-E      | lcs         | 80.2   | `data/sigmorphon2017/medium/HASTAR-LCS-E` |
-| CA-E        | lcs         | 81.0   | `data/sigmorphon2017/medium/CA-LCS-E`  |
-| HA\*-E      | crp         | 77.8   | `data/sigmorphon2017/medium/HASTAR-CRP-E` |
-| CA-E        | crp         | 80.6   | `data/sigmorphon2017/medium/CA-CRP-E` |
-| HA\*-MRT-E  | lcs         | 81.5   | `data/sigmorphon2017/medium/HASTAR-MRT-LCS-E` | 
-| CA-MRT-E    | lcs         | 81.9   | `data/sigmorphon2017/medium/CA-MRT-LCS-E` |
-| HA\*-MRT-E  | crp         | 80.5   | `data/sigmorphon2017/medium/HASTAR-MRT-CRP-E` |
-| CA-MRT-E    | crp         | **82.9**   | `data/sigmorphon2017/medium/CA-MRT-CRP-E` |
-| HACM-E7     |             | 81.8   | n/a |
-| HAEM-E7     |             | 80.3   | n/a |
-| HA[EC]M-E15 |             | 82.8   |`data/sigmorphon2017/medium/HAECM-E15` |
-
-
-
-# Table 4: Lemmatization
 
 
 Feel free to ask <simon.clematide@uzh.ch> for questions related to the data or <makarov@cl.uzh.ch> for questions regarding the code.

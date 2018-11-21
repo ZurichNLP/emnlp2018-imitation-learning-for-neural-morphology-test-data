@@ -17,15 +17,25 @@ $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-mrt-crp-avg):   CANONICA
 $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ha-crp-avg):       CANONICALDIR:=$(CELEXBYTASK_DIR)/HASTAR-CRP-AVG
 $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ha-mrt-crp-avg):   CANONICALDIR:=$(CELEXBYTASK_DIR)/HASTAR-MRT-CRP-AVG
 
-
+# for EMNLP 2018
+$(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-d-avg):       CANONICALDIR:=$(CELEXBYTASK_DIR)/CA-D-AVG
+$(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-r-avg):       CANONICALDIR:=$(CELEXBYTASK_DIR)/CA-R-AVG
+$(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-rm-avg):       CANONICALDIR:=$(CELEXBYTASK_DIR)/CA-RM-AVG
 
 canonical-celexbytask-targets: \
   $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-crp-avg) \
   $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-mrt-crp-avg) \
   $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ha-crp-avg) \
   $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ha-mrt-crp-avg) \
-
-
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-d-avg) \
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-r-avg) \
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-rm-avg) \
+#
+canonical-celexbytask-targets-emnlp2018: \
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-d-avg) \
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-r-avg) \
+  $(foreach st,$(subtasks),canonical-celexbytask-$(st)-ca-rm-avg) \
+#
 
 define CELEX_RULE
 
