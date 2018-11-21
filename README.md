@@ -1,7 +1,7 @@
 # Repository of test data from EMNLP 2018 paper ["Imitation Learning for Neural Morphological String Transduction"](https://arxiv.org/abs/1808.10701) by Peter Makarov and Simon Clematide
  - The code to reproduce these results can be found at <https://github.com/ZurichNLP/emnlp2018-imitation-learning-for-neural-morphology>.
  - For your convenience, the repository also contains *ALL* [test data from our COLING 2018 paper](https://github.com/ZurichNLP/coling2018-neural-transition-based-morphology-test-data). 
-    - See <README_COLING2018_PAPER.md> for  full description of all tables and data locations of COLING DATA. 
+    - See <https://github.com/ZurichNLP/emnlp2018-imitation-learning-for-neural-morphology-test-data/blob/master/README_COLING2018_PAPER.md> for  full description of all tables and data locations of COLING DATA. 
 
 ## Table 1: Results on SIGMORPHON 2016
 Averages over all languages using model ensembles
