@@ -24,6 +24,9 @@ canonical-sgm2016-ha-crp-avg:   CANONICALDIR:=$(SIGMORPHON2016_DIR)/HASTAR-CRP-A
 canonical-sgm2016-ca-d-e:   CANONICALDIR:=$(SIGMORPHON2016_DIR)/CA-D-E
 canonical-sgm2016-ca-d-avg:   CANONICALDIR:=$(SIGMORPHON2016_DIR)/CA-D-AVG
 
+canonical-sgm2016-ca-r-e:   CANONICALDIR:=$(SIGMORPHON2016_DIR)/CA-R-E
+canonical-sgm2016-ca-r-avg:   CANONICALDIR:=$(SIGMORPHON2016_DIR)/CA-R-AVG
+
 
 # all targets for sigmorphon 2017 low
 canonical-sgm2016-targets: \
