@@ -22,8 +22,17 @@ canonical-lemmatizationwic2002-ha-crp-avg:   CANONICALDIR:=$(LEMMATIZATIONWIC200
 canonical-lemmatizationwic2002-ha-lcs-avg:   CANONICALDIR:=$(LEMMATIZATIONWIC2002_DIR)/HASTAR-LCS-AVG
 
 
+# for EMNLP 2018 paper
+canonical-lemmatizationwic2002-ca-d-avg:   CANONICALDIR:=$(LEMMATIZATIONWIC2002_DIR)/CA-D-AVG
+canonical-lemmatizationwic2002-ca-r-avg:   CANONICALDIR:=$(LEMMATIZATIONWIC2002_DIR)/CA-R-AVG
+canonical-lemmatizationwic2002-ca-rm-avg:   CANONICALDIR:=$(LEMMATIZATIONWIC2002_DIR)/CA-RM-AVG
+
+
 # all targets for sigmorphon 2017 low
 canonical-lemmatizationwic2002-targets: \
+  canonical-lemmatizationwic2002-ca-d-avg \
+  canonical-lemmatizationwic2002-ca-r-avg \
+  canonical-lemmatizationwic2002-ca-rm-avg \
   canonical-lemmatizationwic2002-ca-crp-avg \
   canonical-lemmatizationwic2002-ha-crp-avg \
   canonical-lemmatizationwic2002-ca-lcs-avg \
